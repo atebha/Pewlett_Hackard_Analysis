@@ -166,8 +166,6 @@ ON ce.emp_no = de.emp_no
 GROUP BY de.dept_no
 ORDER BY de.dept_no;
 
-SELECT * FROM salaries
-ORDER BY to_date DESC;
 
 SELECT * FROM salaries
 ORDER BY to_date DESC;
